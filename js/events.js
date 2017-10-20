@@ -20,7 +20,9 @@ function pressIt() {
 }
 
 function submitIt() {
-  
+  $('form').on('submit', function() {
+    alert('You form is oging to be submitted now.')
+  })
 }
 
 $(document).ready(function(){
